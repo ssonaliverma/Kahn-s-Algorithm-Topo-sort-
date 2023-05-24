@@ -47,3 +47,14 @@ vector<int> topoSort(int V, vector<int> adj[])
 	   
 	   
 	}
+				
+//Note 
+//condition if given directed graph have a cycle
+if(topSort.size()!=V)
+{
+    return true;//graph have a cycle
+}
+else{
+	return false;
+}
+				
